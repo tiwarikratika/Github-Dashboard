@@ -1,0 +1,12 @@
+.sidebar{
+    border-right: 1px solid black;
+    flex: 0.25;
+    /* padding-right: 8px; */
+
+}
+
+.heading-sidebar{
+    font-size: 28px;
+    color: rgb(58, 58, 126);
+
+}

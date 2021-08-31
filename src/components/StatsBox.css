@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.stats-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBXj-WC-6Da_GScl5qqolwJmb6XEy0kZJPQ&usqp=CAU');
+  opacity: 0.6;
+  cursor: pointer;
+
+ 
+}
+
+.percentage{
+  color: green;
+  font-weight: 500;
+}
+
+.stats-card:hover{
+  background-color:beige;
+  transition: 0.2s ease-in-out;
+}

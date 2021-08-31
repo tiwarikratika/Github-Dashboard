@@ -1,0 +1,17 @@
+.navigation{
+    background-color:rgb(190, 190, 190);
+    padding: 0.3rem;
+   
+}
+.list-non-bullet{
+    list-style: none;
+    
+}
+
+.list-inline{
+    display: inline;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+

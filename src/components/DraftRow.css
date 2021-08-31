@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  .columnn1 {
+      padding-top: 3%;
+    float: left;
+    width: 30%;
+    padding-right: 2%;
+    padding-left: 2%;
+   
+  }
+  
+  .columnn2{
+    padding-top: 3%;
+    float: left;
+    width: 48%;
+    padding-right: 2%;
+   
+  }
+  .columnn3{
+    padding-top: 3%;
+    float: left;
+    width: 18% ;
+    
+
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
